@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+header {
+    margin-bottom: 10px;
+}
+#kategorija {
+    float: left;
+    width: 48%;
+    margin-left: 20px;
+}
+.kat {
+    /*position: flex;*/
+   float:left;
+    text-align: left;
+}
+.index {
+  /*position: flex;*/
+  float: right;
+  margin-right: 10px;
+  width: 48%;
+  text-align: right;
+  
+}
+.lista {
+    position: absolute;
+    width: 48%;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.prviul {
+    /*position: absolute;*/
+    list-style-type: none;
+    /*border-style: solid;*/
+}
+.prvili {
+    /*position: relative;*/
+    margin-left: 10px;
+    padding-left: 10px;
+    border: 1px solid orange;
+   /* border-style: solid; */
+      
+}
+.naslov {
+    display: flex;
+}
+.prvili h1 {
+    font-size: 40px;
+    width: 100%;
+    /*position:relative;*/
+}
+
+.prvili sub {
+    /*position: absolute;*/
+    margin-right: 10px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+.lista2 {
+    position: absolute;
+    width: 48%;
+    padding-right: 20px;
+}
+#novo1 {
+    float: right;
+    
+    width: 48%;
+    /*display: flex; */
+}
+#novo {
+    display: contents;
+    margin-left: 40px;
+}
+.drugiul {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.drugili {
+    border: 1px solid black;
+    list-style-type: none;
+}
+.drugili h1 {
+   font-size: 40px;
+}
+.izgled1  {
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+.izgled1 p {
+    width: 50%;
+    text-align: right;
+    padding-top: 30px;
+    margin-right: 10px;
+}
+.izgled2 {
+    display: flex
+}
+.levo  {
+    text-align: left;
+    width: 95%;
+    padding-left: 10px;
+    
+}
+.desno  {
+    text-align: right;
+    width: 5%;
+    margin-right: 10px;
+    
+}
